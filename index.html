@@ -3,12 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="shortcut icon" href="https://th.bing.com/th/id/R.2cf15c2f35f3b05ef26f7c81501ea4ec?rik=YAwtjeZmSEnYdg&pid=ImgRaw&r=0" type="image/x-icon">
+  <title>flower</title>
 </head>
 <body>
+  <style>
+    img{
+      height: 125px;
+    }
+  </style>
   <script src="https://checkout.flutterwave.com/v3.js"></script>
   <form>
     <div>
+      <img src="https://th.bing.com/th/id/R.2cf15c2f35f3b05ef26f7c81501ea4ec?rik=YAwtjeZmSEnYdg&pid=ImgRaw&r=0"  alt="">
+      that is a good chocie 
       Your order is ₦2,500
     </div>
     <button type="button" id="start-payment-button" onclick="makePayment()">Pay Now</button>
@@ -19,8 +27,8 @@
         public_key: "FLWPUBK_TEST-ad4f593d6a4769bfbf5fe84cacc861ff-X",
         tx_ref: "txref-DI0NzMx13",
         amount: 2500,
-        currency: "NGN",
-        payment_options: "card, banktransfer, ussd",
+        currency: "USD",
+        payment_options: "card, banktransfer, ussd,paypal,googlepay",
         meta: {
           source: "docs-inline-test",
           consumer_mac: "92a3-912ba-1192a",
